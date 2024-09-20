@@ -13,6 +13,19 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.35em',
+    },
+    fontFamily: {
+      fraunces: ["Fraunces", "serif"],
+      montserrat: ["Montserrat", "sans-serif"],
+    }
   },
   plugins: [],
 };
